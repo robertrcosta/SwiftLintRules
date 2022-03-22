@@ -42,7 +42,6 @@ opt_in_rules:
     - identical_operands
     - implicit_return
     - implicitly_unwrapped_optional
-    - indentation_width
     - last_where
     - legacy_multiple
     - legacy_objc_type
@@ -193,9 +192,6 @@ identical_operands:
     severity: error 
 
 implicit_return:
-    severity: error
-
-indentation_width:
     severity: error
     
 last_where:
