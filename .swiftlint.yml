@@ -80,6 +80,7 @@ opt_in_rules:
     - untyped_error_in_catch
     - unused_import
     - vertical_parameter_alignment_on_call
+    - vertical_whitespace_opening_braces
     - vertical_whitespace_closing_braces    
     - weak_delegate
     - yoda_condition  
@@ -315,9 +316,6 @@ unused_import:
     severity: error
     
 vertical_parameter_alignment_on_call:
-    severity: error
-    
-vertical_whitespace_closing_braces:
     severity: error
     
 weak_delegate:
