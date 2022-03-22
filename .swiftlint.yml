@@ -207,6 +207,9 @@ legacy_multiple:
 legacy_random:
     severity: error 
 
+line_lenght:
+    ignores_comments: false
+    
 literal_expression_end_indentation:
     severity: error
     
