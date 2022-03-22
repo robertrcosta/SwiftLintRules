@@ -284,7 +284,10 @@ toggle_bool:
     
 trailing_closure:
     severity: error
-
+    
+trailing_whitespace:
+    ignores_empty_lines: true
+    
 type_contents_order:
     severity: error
     order: [
