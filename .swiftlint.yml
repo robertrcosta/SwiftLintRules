@@ -20,7 +20,6 @@ opt_in_rules:
     - discouraged_none_name
     - discouraged_object_literal
     - discouraged_optional_boolean
-    - discouraged_optional_collection
     - empty_collection_literal
     - empty_count
     - empty_string
@@ -45,7 +44,6 @@ opt_in_rules:
     - last_where
     - legacy_multiple
     - legacy_objc_type
-    - legacy_random
     - literal_expression_end_indentation    
     - modifier_order
     - multiline_arguments
@@ -159,6 +157,9 @@ enum_case_associated_values_count:
 explicit_init:
     severity: error   
     
+explicit_acl:
+    severity: error
+    
 explicit_top_level_acl:
     severity: error    
     
@@ -201,14 +202,11 @@ last_where:
 legacy_multiple:
     severity: error 
 
-legacy_multiple:
-    severity: error 
-
 legacy_random:
     severity: error 
 
-line_lenght:
-    ignores_comments: false
+line_length:
+    ignores_comments: true
     
 literal_expression_end_indentation:
     severity: error
