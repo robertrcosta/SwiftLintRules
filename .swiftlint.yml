@@ -15,7 +15,6 @@ opt_in_rules:
     - contains_over_first_not_nil
     - contains_over_range_nil_comparison
     - convenience_type
-    - discarded_notification_center_observer
     - discouraged_assert
     - discouraged_none_name
     - discouraged_object_literal
@@ -36,7 +35,6 @@ opt_in_rules:
     - first_where
     - flatmap_over_map_reduce
     - force_unwrapping
-    - file_types_order
     - ibinspectable_in_extension
     - identical_operands
     - implicit_return
@@ -125,10 +123,7 @@ contains_over_range_nil_comparison:
     
 contains_over_filter_count:
     severity: error    
-    
-discarded_notification_center_observer:
-    severity: error   
-    
+        
 discouraged_assert:
     severity: error    
     
@@ -177,10 +172,7 @@ file_name:
     
 file_name_no_space:
     severity: error   
-    
-file_types_order:
-    severity: error    
-    
+        
 first_where:
     severity: error
     
