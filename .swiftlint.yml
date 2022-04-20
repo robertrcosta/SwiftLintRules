@@ -319,7 +319,7 @@ yoda_condition:
     severity: error
     
 excluded:
-    - Pods
+    - ${PWD}/Pods
 
 type_name:
     allowed_symbols: "_"
