@@ -14,9 +14,13 @@ Add a new Run script:
 FILE=.swiftlint.yml
 curl -o $FILE https://raw.githubusercontent.com/robertrcosta/SwiftLintRules/main/.swiftlint.yml
 
-if [ -f $FILE ]; then
-"${PODS_ROOT}/SwiftLint/swiftlint" --config $FILE
+# if [ -f $FILE ]; then
+# "${PODS_ROOT}/SwiftLint/swiftlint" --config $FILE
+# fi
+if [ -z "$CI" ]; then
+    "${PODS_ROOT}/SwiftLint/swiftlint" --config $FILE 
 fi
+
 ```
 
 ## How to use swiftlint autoccorrect? 
