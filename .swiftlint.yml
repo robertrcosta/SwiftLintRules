@@ -50,7 +50,6 @@ opt_in_rules:
     - multiline_function_chains
     - multiline_literal_brackets
     - multiline_parameters
-    - multiline_parameters_brackets
     - no_extension_access_modifier
     - number_separator
     - operator_usage_whitespace
@@ -199,6 +198,7 @@ legacy_random:
     severity: error
 
 line_length:
+    warning: 140
     ignores_comments: true
     
 literal_expression_end_indentation:
