@@ -221,9 +221,6 @@ multiline_literal_brackets:
 
 multiline_parameters:
     severity: error
-
-multiline_parameters_brackets:
-    severity: error
     
 no_extension_access_modifier:
     severity: error
