@@ -123,6 +123,9 @@ contains_over_range_nil_comparison:
     
 contains_over_filter_count:
     severity: error
+    
+cyclomatic_complexity:
+    ignores_case_statements: false
         
 discouraged_assert:
     severity: error
