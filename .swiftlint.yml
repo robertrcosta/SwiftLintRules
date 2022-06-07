@@ -125,7 +125,7 @@ contains_over_filter_count:
     severity: error
     
 cyclomatic_complexity:
-    ignores_case_statements: false
+    ignores_case_statements: true
         
 discouraged_assert:
     severity: error
