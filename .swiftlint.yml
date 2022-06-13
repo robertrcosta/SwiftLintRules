@@ -224,6 +224,9 @@ multiline_literal_brackets:
 
 multiline_parameters:
     severity: error
+
+nesting:
+    type_level: 2
     
 no_extension_access_modifier:
     severity: error
