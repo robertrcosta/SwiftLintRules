@@ -4,6 +4,8 @@ disabled_rules:
     - redundant_string_enum_value
     - shorthand_operator
     - convenience_type
+    - type_body_length
+    - file_length
 
 opt_in_rules:
     - attributes
