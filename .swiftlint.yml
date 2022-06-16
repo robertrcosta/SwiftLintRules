@@ -97,6 +97,9 @@ identifier_name:
     min_length:
         warning: 2
         error: 2
+    max_length:
+        warning: 60
+        error: 60
 
 closure_end_indentation:
     severity: error
