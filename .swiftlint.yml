@@ -187,6 +187,10 @@ first_where:
 flatmap_over_map_reduce:
     severity: error
 
+function_body_length:
+    warning: 60
+    error: 60
+
 function_parameter_count:
     warning: 6
 
