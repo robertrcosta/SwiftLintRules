@@ -333,8 +333,13 @@ weak_delegate:
 yoda_condition:
     severity: error
     
-excluded:
-    - ${PWD}/Pods
+included: # paths to include during linting. `--path` is ignored if present.
+  - Sources
+  - Example
+  - Bento
+  
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
 
 type_name:
     allowed_symbols: "_"
