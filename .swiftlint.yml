@@ -86,6 +86,10 @@ opt_in_rules:
 conditional_returns_on_newline:
     if_only: true
 
+closure_body_length:
+    warning: 40
+    error: 100
+    
 enum_case_associated_values_count:
     warning: 2
     error: 3
