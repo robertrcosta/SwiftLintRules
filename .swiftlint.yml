@@ -90,10 +90,6 @@ closure_body_length:
     warning: 40
     error: 100
     
-enum_case_associated_values_count:
-    warning: 2
-    error: 3
-
 force_cast:
     severity: warning
 
