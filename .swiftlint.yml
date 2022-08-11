@@ -60,7 +60,6 @@ opt_in_rules:
     - prefer_self_in_static_references
     - prefer_self_type_over_type_of_self
     - prefer_zero_over_explicit_init
-    - prohibited_interface_builder
     - reduce_into
     - redundant_nil_coalescing
     - single_test_class
@@ -130,6 +129,8 @@ contains_over_filter_count:
     severity: error
     
 cyclomatic_complexity:
+    warning: 10
+    error: 10
     ignores_case_statements: true
         
 discouraged_assert:
@@ -189,7 +190,6 @@ flatmap_over_map_reduce:
 
 function_body_length:
     warning: 60
-    error: 60
 
 function_parameter_count:
     warning: 6
@@ -293,7 +293,11 @@ trailing_closure:
     
 trailing_whitespace:
     ignores_empty_lines: true
-    
+
+large_tuple:
+    warning: 4
+    error: 4
+
 type_contents_order:
     severity: error
     order: [
