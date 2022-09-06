@@ -155,7 +155,7 @@ empty_xctest_method:
     severity: error
     
 enum_case_associated_values_count:
-    warning: 3
+    warning: 4
     error: 4
     
 explicit_init:
@@ -351,6 +351,7 @@ excluded: # paths to ignore during linting. Takes precedence over `included`.
 
 type_name:
     allowed_symbols: "_"
+    max_length: 100
     severity: warning
 
 reporter: "xcode"
