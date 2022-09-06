@@ -350,6 +350,7 @@ excluded: # paths to ignore during linting. Takes precedence over `included`.
 
 type_name:
     allowed_symbols: "_"
+    max_length: 100
     severity: warning
 
 reporter: "xcode"
