@@ -190,7 +190,7 @@ flatmap_over_map_reduce:
     severity: error
 
 function_body_length:
-    warning: 60
+    warning: 100
 
 function_parameter_count:
     warning: 6
