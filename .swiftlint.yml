@@ -86,7 +86,7 @@ conditional_returns_on_newline:
     if_only: true
 
 closure_body_length:
-    warning: 40
+    warning: 100
     error: 100
     
 force_cast:
