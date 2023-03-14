@@ -214,7 +214,7 @@ legacy_random:
     severity: error
 
 line_length:
-    warning: 140
+    warning: 200
     ignores_comments: true
     
 literal_expression_end_indentation:
@@ -225,6 +225,7 @@ modifier_order:
 
 multiline_arguments:
     severity: error
+    only_enforce_after_first_closure_on_first_line: true
 
 multiline_arguments_brackets:
     severity: error
