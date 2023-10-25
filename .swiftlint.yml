@@ -74,7 +74,6 @@ opt_in_rules:
     - unowned_variable_capture
     - untyped_error_in_catch
     - unused_import
-    - vertical_parameter_alignment_on_call
     - vertical_whitespace_opening_braces
     - vertical_whitespace_closing_braces
     - weak_delegate
@@ -326,9 +325,6 @@ untyped_error_in_catch:
     severity: warning
     
 unused_import:
-    severity: error
-    
-vertical_parameter_alignment_on_call:
     severity: error
     
 weak_delegate:
