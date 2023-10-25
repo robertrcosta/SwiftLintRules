@@ -8,7 +8,6 @@ disabled_rules:
     - file_length
 
 opt_in_rules:
-    - closure_body_length
     - closure_end_indentation
     - closure_spacing
     - collection_alignment
@@ -82,10 +81,6 @@ opt_in_rules:
 conditional_returns_on_newline:
     if_only: true
 
-closure_body_length:
-    warning: 100
-    error: 100
-    
 force_cast:
     severity: warning
 
