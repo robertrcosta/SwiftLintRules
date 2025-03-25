@@ -332,17 +332,16 @@ included: # paths to include during linting. `--path` is ignored if present.
   - Sources
   - Example
   - Bento
-  - ElizaWasHere
-  - Sunweb
-  - GOGO
-  
+  - Apps
+  - Modules
+
 excluded: # paths to ignore during linting. Takes precedence over `included`.
-  - Pods
-# GOGO
-  - GOGO/Social
-  - GOGO/Chat
-# MyPortal
-  - Sources/Weather
+  - Apps/Common
+  - Apps/ElizaWasHereTests
+  - Apps/GOGOTests
+  - Apps/SunwebTests
+  - Modules/Features/MyPortal/MyPortalTests
+  - Modules/Features/Packages/PackagesTests
 
 type_name:
     allowed_symbols: "_"
