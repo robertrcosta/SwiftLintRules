@@ -323,6 +323,9 @@ excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Apps/SunwebTests
   - Modules/Features/MyPortal/MyPortalTests
   - Modules/Features/Packages/PackagesTests
+  - Modules/Common/Framework/FrameworkTests
+  - Modules/Common/Catalog/CatalogTests
+  - Modules/Common/UICommon/UICommonTests
 
 type_name:
     allowed_symbols: "_"
