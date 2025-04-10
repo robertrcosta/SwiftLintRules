@@ -321,11 +321,11 @@ excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Apps/ElizaWasHereTests
   - Apps/GOGOTests
   - Apps/SunwebTests
-  - Modules/Features/MyPortal/MyPortalTests
-  - Modules/Features/Packages/PackagesTests
-  - Modules/Common/Framework/FrameworkTests
-  - Modules/Common/Catalog/CatalogTests
-  - Modules/Common/UICommon/UICommonTests
+  - Modules/Features/MyPortal/Tests
+  - Modules/Features/Packages/Tests
+  - Modules/Common/Framework/Tests
+  - Modules/Common/Catalog/Tests
+  - Modules/Common/UICommon/Tests
 
 type_name:
     allowed_symbols: "_"
