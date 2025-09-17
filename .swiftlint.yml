@@ -270,9 +270,6 @@ static_operator:
 
 strict_fileprivate:
     severity: error
-    
-switch_case_on_newline:
-    severity: error
 
 test_case_accessibility:
     severity: error
