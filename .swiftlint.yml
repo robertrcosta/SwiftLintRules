@@ -103,9 +103,6 @@ attributes:
 collection_alignment:
     severity: error
     
-contains_over_filter_count:
-    severity: error
-    
 contains_over_filter_is_empty:
     severity: error
     
