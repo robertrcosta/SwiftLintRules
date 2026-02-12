@@ -274,9 +274,6 @@ test_case_accessibility:
 toggle_bool:
     severity: error
     
-trailing_closure:
-    severity: error
-    
 trailing_whitespace:
     ignores_empty_lines: true
 
