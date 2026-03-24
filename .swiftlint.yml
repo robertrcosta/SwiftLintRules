@@ -298,16 +298,20 @@ weak_delegate:
     
 yoda_condition:
     severity: error
+
+type_name:
+    allowed_symbols: "_"
+    max_length: 100
+    severity: warning
     
-included: # paths to include during linting. `--path` is ignored if present.
+included:
   - Sources
   - Example
   - Bento
   - Apps
   - Modules
 
-excluded: # paths to ignore during linting. Takes precedence over `included`.
-  - Apps/Common
+excluded:
   - Apps/ElizaWasHereTests
   - Apps/GOGOTests
   - Apps/SunwebTests
@@ -316,10 +320,5 @@ excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Modules/Common/Framework/Tests
   - Modules/Common/Catalog/Tests
   - Modules/Common/UICommon/Tests
-
-type_name:
-    allowed_symbols: "_"
-    max_length: 100
-    severity: warning
 
 reporter: "xcode"
