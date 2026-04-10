@@ -199,6 +199,9 @@ legacy_random:
 line_length:
     warning: 200
     ignores_comments: true
+    ignores_multiline_strings: true
+    ignores_regex_literals: true
+    ignores_interpolated_strings: true
     
 literal_expression_end_indentation:
     severity: error
