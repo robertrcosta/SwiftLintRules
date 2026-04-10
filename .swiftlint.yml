@@ -269,6 +269,9 @@ test_case_accessibility:
 
 toggle_bool:
     severity: error
+
+trailing_closure:
+    only_single_muted_parameter: true
     
 trailing_whitespace:
     ignores_empty_lines: true
