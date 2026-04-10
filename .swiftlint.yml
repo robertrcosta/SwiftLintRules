@@ -95,10 +95,6 @@ closure_end_indentation:
 
 closure_spacing:
     severity: error
-    
-attributes:
-    always_on_same_line: []
-    always_on_line_above: ["@objc","@nonobjc","@available"]
 
 collection_alignment:
     severity: error
@@ -242,9 +238,6 @@ optional_enum_case_matching:
     severity: error
     
 overridden_super_call:
-    severity: error
-
-prefer_self_in_static_references:
     severity: error
 
 reduce_into:
